@@ -6,6 +6,5 @@ function updateClock(){
 
     document.getElementById('digital-watch').innerHTML = `${hours}:${minutes}:${seconds}`;
 }
-
 setInterval(updateClock, 1000);
 updateClock();
